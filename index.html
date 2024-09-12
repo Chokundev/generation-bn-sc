@@ -51,6 +51,8 @@
                     <select id="select1" name="select1"
                         class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
                         <option value="">กรุณาเลือกระดับชั้น</option>
+                        <option value="1">ม.ศ. 3</option>
+                        <option value="2">ม.ศ. 5</option>
                         <option value="3">มัธยมศึกษาปีที่ 3</option>
                         <option value="6">มัธยมศึกษาปีที่ 6</option>
                     </select>
@@ -192,6 +194,14 @@
             Swal.fire('คุณคือบวรนิเวศ', `รุ่นที่ : ${result}`, 'info');
         } else if (select1Value === '6') {
             // Calculate the result for condition 2
+            const result = select2Value - 2436;
+            Swal.fire('คุณคือบวรนิเวศ', `รุ่นที่ : ${result}`, 'info');
+        } else if (select1Value === '1') {
+            // Calculate the result for condition 3
+            const result = (select2Value + 2) - 2436;
+            Swal.fire('คุณคือบวรนิเวศ', `รุ่นที่ : ${result}`, 'info');
+        } else if (select1Value === '2') {
+            // Calculate the result for condition 4
             const result = select2Value - 2436;
             Swal.fire('คุณคือบวรนิเวศ', `รุ่นที่ : ${result}`, 'info');
         } else {
