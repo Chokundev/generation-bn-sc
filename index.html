@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เว็บไซต์ระบบนับรุ่นโรงเรียนวัดบวรนิเวศ</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- SweetAlert2 CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- <script src="/script.js"></script> -->
+
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <meta name="description" content="เว็บไซต์ระบบนับรุ่นโรงเรียนวัดบวรนิเวศ" />
+    <meta property="og:title" content="เว็บไซต์ระบบนับรุ่นโรงเรียนวัดบวรนิเวศ โดยศิษย์เก่าโรงเรียนวัดบวรนิเวศ">
+    <meta property="og:image" content="https://generation-bn-sc.pages.dev/meta.png">
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LGEZVFMVN6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LGEZVFMVN6');
+</script>
+
+<body class="flex flex-col min-h-screen">
+    <!-- Main Content -->
+    <main class="flex-grow p-8">
+        <div class="flex justify-center items-center pt-6 mb-6">
+            <img src="./img/logo.png" alt="logo" width="100px">
+        </div>
+
+        <h1 class="text-3xl font-bold text-center"><strong>ระบบนับรุ่น โรงเรียนวัดบวรนิเวศ</strong></h1>
+        <p class="mt-4 text-center mb-4">โดยศิษย์เก่าโรงเรียนวัดบวรนิเวศรุ่น 130</p>
+        <hr>
+
+        <!-- Form Section -->
+        <div class="mt-8">
+            <form id="myForm" class="max-w-md mx-auto bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                <!-- Select Input 1 -->
+                <div class="mb-4">
+                    <label for="select1" class="block text-gray-700 text-sm font-bold mb-2">เลือกระดับชั้นที่จบ
+                        :</label>
+                    <select id="select1" name="select1"
+                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                        <option value="">กรุณาเลือกระดับชั้น</option>
+                        <option value="3">มัธยมศึกษาปีที่ 3</option>
+                        <option value="6">มัธยมศึกษาปีที่ 6</option>
+                    </select>
+                </div>
+                <!-- Select Input 2 -->
+                <div class="mb-4">
+                    <label for="select2" class="block text-gray-700 text-sm font-bold mb-2">เลือกปีการศึกษาที่คาดว่าจบ /
+                        จบ :</label>
+                    <select id="select2" name="select2"
+                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                        <option value="">กรุณาเลือกปีการศึกษา</option>
+                        <option value="2520">ปี 2520</option>
+                        <option value="2521">ปี 2521</option>
+                        <option value="2522">ปี 2522</option>
+                        <option value="2523">ปี 2523</option>
+                        <option value="2524">ปี 2524</option>
+                        <option value="2525">ปี 2525</option>
+                        <option value="2526">ปี 2526</option>
+                        <option value="2527">ปี 2527</option>
+                        <option value="2528">ปี 2528</option>
+                        <option value="2529">ปี 2529</option>
+                        <option value="2530">ปี 2530</option>
+                        <option value="2531">ปี 2531</option>
+                        <option value="2532">ปี 2532</option>
+                        <option value="2533">ปี 2533</option>
+                        <option value="2534">ปี 2534</option>
+                        <option value="2535">ปี 2535</option>
+                        <option value="2536">ปี 2536</option>
+                        <option value="2537">ปี 2537</option>
+                        <option value="2538">ปี 2538</option>
+                        <option value="2539">ปี 2539</option>
+                        <option value="2540">ปี 2540</option>
+                        <option value="2541">ปี 2541</option>
+                        <option value="2542">ปี 2542</option>
+                        <option value="2543">ปี 2543</option>
+                        <option value="2544">ปี 2544</option>
+                        <option value="2545">ปี 2545</option>
+                        <option value="2546">ปี 2546</option>
+                        <option value="2547">ปี 2547</option>
+                        <option value="2548">ปี 2548</option>
+                        <option value="2549">ปี 2549</option>
+                        <option value="2550">ปี 2550</option>
+                        <option value="2551">ปี 2551</option>
+                        <option value="2552">ปี 2552</option>
+                        <option value="2553">ปี 2553</option>
+                        <option value="2554">ปี 2554</option>
+                        <option value="2555">ปี 2555</option>
+                        <option value="2556">ปี 2556</option>
+                        <option value="2557">ปี 2557</option>
+                        <option value="2558">ปี 2558</option>
+                        <option value="2559">ปี 2559</option>
+                        <option value="2560">ปี 2560</option>
+                        <option value="2561">ปี 2561</option>
+                        <option value="2562">ปี 2562</option>
+                        <option value="2563">ปี 2563</option>
+                        <option value="2564">ปี 2564</option>
+                        <option value="2565">ปี 2565</option>
+                        <option value="2566">ปี 2566</option>
+                        <option value="2567">ปี 2567</option>
+                        <option value="2568">ปี 2568</option>
+                        <option value="2569">ปี 2569</option>
+                        <option value="2570">ปี 2570</option>
+                        <option value="2571">ปี 2571</option>
+                        <option value="2572">ปี 2572</option>
+                        <option value="2573">ปี 2573</option>
+                        <option value="2574">ปี 2574</option>
+                        <option value="2575">ปี 2575</option>
+                        <option value="2576">ปี 2576</option>
+                        <option value="2577">ปี 2577</option>
+                        <option value="2578">ปี 2578</option>
+                        <option value="2579">ปี 2579</option>
+                        <option value="2580">ปี 2580</option>
+                        <option value="2581">ปี 2581</option>
+                        <option value="2582">ปี 2582</option>
+                        <option value="2583">ปี 2583</option>
+                        <option value="2584">ปี 2584</option>
+                        <option value="2585">ปี 2585</option>
+                        <option value="2586">ปี 2586</option>
+                        <option value="2587">ปี 2587</option>
+                        <option value="2588">ปี 2588</option>
+                        <option value="2589">ปี 2589</option>
+                        <option value="2590">ปี 2590</option>
+                    </select>
+                </div>
+                <!-- Submit Button -->
+                <div class="flex items-center justify-center">
+                    <button type="submit"
+                        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">ยืนยัน</button>
+                </div>
+            </form>
+        </div>
+
+        <footer class="mt-8 mb-12 text-center">&copy 2024 พัฒนาเว็บไซต์ : ธีรชานนท์ พวงเงิน</footer>
+
+    </main>
+
+    <!-- Bottom Navigation Bar -->
+    <nav class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200">
+        <ul class="flex justify-around items-center h-16">
+            <li>
+                <a href="index.html" class="flex flex-col items-center text-gray-600 hover:text-blue-500">
+                    <!-- Home Icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-house" viewBox="0 0 16 16">
+                        <path
+                            d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z" />
+                    </svg>
+                    <span class="text-xs">หน้าหลัก</span>
+                </a>
+            </li>
+            <li>
+                <a href="about.html" class="flex flex-col items-center text-gray-600 hover:text-blue-500">
+                    <!-- About Icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-info-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                        <path
+                            d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                    </svg>
+                    <span class="text-xs">เกี่ยวกับ</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</body>
+
+<script>
+    document.getElementById('myForm').addEventListener('submit', function (event) {
+        event.preventDefault();  // Prevent form submission
+
+        // Get values from the inputs
+        const select1Value = document.getElementById('select1').value;
+        const select2Value = parseInt(document.getElementById('select2').value, 10);  // Parse as integer
+
+        // Check the condition for input 1
+        if (select1Value === '3') {
+            // Calculate the result for condition 1
+            const result = (select2Value + 3) - 2436;
+            Swal.fire('คุณคือบวรนิเวศ', `รุ่นที่ : ${result}`, 'info');
+        } else if (select1Value === '6') {
+            // Calculate the result for condition 2
+            const result = select2Value - 2436;
+            Swal.fire('คุณคือบวรนิเวศ', `รุ่นที่ : ${result}`, 'info');
+        } else {
+            Swal.fire('Error', 'Please select a valid option for Select Option 1.', 'error');
+        }
+    });
+
+    console.log("Connect Success !");
+</script>
+
+</html>
