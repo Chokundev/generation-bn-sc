@@ -222,19 +222,39 @@
         if (select1Value === '3') {
             // Calculate the result for condition 1
             const result = (select2Value + 3) - 2436;
-            Swal.fire('คุณคือบวรนิเวศ', `รุ่นที่ : ${result}`, 'info');
+            Swal.fire({
+                icon: "info",
+                title: `คุณคือบวรนิเวศรุ่น : ${result}`,  // Use backticks and template literal
+                text: `จบระดับชั้น : ม. 3   ปี : ${select2Value}`,  // Use backticks and template literal
+                confirmButtonText: "ยืนยัน",
+            });
         } else if (select1Value === '6') {
             // Calculate the result for condition 2
             const result = select2Value - 2436;
-            Swal.fire('คุณคือบวรนิเวศ', `รุ่นที่ : ${result}`, 'info');
+            Swal.fire({
+                icon: "info",
+                title: `คุณคือบวรนิเวศรุ่น : ${result}`,  // Use backticks and template literal
+                text: `จบระดับชั้น : ม. 6   ปี : ${select2Value}`,  // Use backticks and template literal
+                confirmButtonText: "ยืนยัน",
+            });
         } else if (select1Value === '1') {
             // Calculate the result for condition 3
             const result = (select2Value + 2) - 2436;
-            Swal.fire('คุณคือบวรนิเวศ', `รุ่นที่ : ${result}`, 'info');
+            Swal.fire({
+                icon: "info",
+                title: `คุณคือบวรนิเวศรุ่น : ${result}`,  // Use backticks and template literal
+                text: `จบระดับชั้น : ม.ศ. 3   ปี : ${select2Value}`,  // Use backticks and template literal
+                confirmButtonText: "ยืนยัน",
+            });
         } else if (select1Value === '2') {
             // Calculate the result for condition 4
             const result = select2Value - 2436;
-            Swal.fire('คุณคือบวรนิเวศ', `รุ่นที่ : ${result}`, 'info');
+            Swal.fire({
+                icon: "info",
+                title: `คุณคือบวรนิเวศรุ่น : ${result}`,  // Use backticks and template literal
+                text: `จบระดับชั้น : ม.ศ. 5   ปี : ${select2Value}`,  // Use backticks and template literal
+                confirmButtonText: "ยืนยัน",
+            });
         } else {
             Swal.fire('เกิดข้อผิดพลาด', 'โปรดเลือกระดับชั้นและปีการศึกษาที่จบก่อนกดปุ่ม "ยืนยัน"', 'error');
         }
