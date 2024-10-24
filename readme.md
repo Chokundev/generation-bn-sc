@@ -1,46 +1,33 @@
 
-  
-
 # GENERATION-BN
 
-  
-ระบบนับรุ่นโรงเรียนวัดบวรนิเวศ โดยศิษย์เก่าโรงเรียนวัดบวรนิเวศ
+**Class Year Calculation System for Wat Bowonniwet School Alumni**
 
-  เพื่อให้การนับรุ่นของโรงเรียนวัดบวรนิเวศ มีความต่อเนื่องและไม่ให้เกิดความเข้าใจผิดเกี่ยวกับการนับรุ่นของทั้งศิษย์เก่าและศิษย์ปัจจุบันจึงเกิดเป็นระบบนับรุ่นเพื่อให้ทั้งศิษย์เก่าและศิษย์ปัจจุบันมีความเข้าใจตรงกัน
+This system was created to ensure consistent and accurate class year tracking for alumni and current students of Wat Bowonniwet School. By providing a clear method for determining class year, both alumni and students can avoid confusion and easily identify their respective classes.
 
-เวลาเจอคำถามที่ว่า เรารุ่นไหน ?? จะได้ตอบกันได้อย่างถูกต้อง
+No more hesitation when someone asks, "What class are you from?" Now, you can confidently provide the correct answer!
 
-พร้อมแล้วเข้าไปเช็กรุ่นได้ที่
+Check your class year here:
 
-Link : [https://generation-bn-sc.pages.dev/](้https://generation-bn-sc.pages.dev/)
+[https://generation-bn-sc.pages.dev/](https://generation-bn-sc.pages.dev/)
 
+## Technologies Used
 
-  
+-   **Frontend**: HTML, CSS, JavaScript, Tailwind CSS
+-   **Alerts**: SweetAlert2
+-   **Deployment**: Cloudflare Pages
 
-  
+## How to Use
 
-## เทคโนโลยีที่ใช้
+Simply enter your graduation level and the academic year you graduated, then click the confirm button. The system will instantly calculate and display your class year.
 
-  
+## Developers & Data Providers
 
-ระบบนี้พัฒนาด้วย Html Css JavaScript Tailwind CSS และ SweetAlert2
-Deploy ระบบด้วย CloudflarePages 
+-   **Developed by**: Theerachanon Puang-ngern (Wat Bowonniwet Alumni, Class 130)
+-   **Data provided by**:
+    -   Police Lieutenant Apakorn Kaewcharas (Wat Bowonniwet Alumni, Class 90)
+    -   Krit Siribowonkiet (Wat Bowonniwet Alumni, Class 92)
 
-  
+## License
 
-## การใช้งาน
-
-เพียงกรอกระดับชั้นที่จบ และปีการศึกษาที่จบ และกดปุ่มยืนยันก็สามารถเช็กรุ่นได้ทันที
-
-  
-  
-  
-
-## ผู้พัฒนาและผู้ให้ข้อมูลการนับรุ่น
-
-  
-
-พัฒนาโดย : ธีรชานนท์ พวงเงิน ศบน.130
-ข้อมูลโดย : ร.ต.อ. อาภากร แก้วจรัส ศบน.90
-ข้อมูลโดย : กฤต ศิริบวรเกียรติ ศบน.92
-
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
